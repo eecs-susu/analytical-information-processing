@@ -1,4 +1,4 @@
-CREATE TABLE providers(
+CREATE TABLE providers (
     id integer PRIMARY KEY,
     name char(20) NOT NULL,
     city char(20) NOT NULL,
