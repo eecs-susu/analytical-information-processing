@@ -3,3 +3,5 @@ venv
 **.idea
 **.ipynb_checkpoints
 **~$Branch_2.xlsx
+**instance
+**.vscode
