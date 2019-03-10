@@ -9,5 +9,5 @@ CREATE TABLE supplies (
     quantity integer CHECK(quantity > 0),
     price float CHECK(price > 0),
     ship_date date NOT NULL,
-    CONSTRAINT total_weight CHECK(check_weight_constraint(id, detail_id, 1500))
+    CONSTRAINT total_weight CHECK(check_weight_constraint(quantity, detail_id, 1500))
 );
