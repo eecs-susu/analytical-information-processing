@@ -1,3 +1,5 @@
-**/.DS_Store
+**.DS_Store
 venv
-.idea
+**.idea
+**.ipynb_checkpoints
+**~$Branch_2.xlsx
